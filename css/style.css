@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	width: 700px;
+	/*height: 50px;*/
+	/*padding: 10px;*/
+	margin: 10px auto;
+}
+
+/********
+			header
+					********/
+
+
+#header{
+	width: 80%;
+	margin: auto;
+	/*margin-right: 10px;*/
+	padding: 15px;
+	background-color: brown;
+	/*border-radius: 20px;*/
+	text-align: right;
+	color: #fff;
+
+}
+#title{
+	font-size: 1.4em;
+}
+
+/********
+			main
+					********/
+
+#main{
+	position: relative;
+	width: 80%;
+	min-height: 400px;
+	margin: 5px auto;
+	border: 1px solid brown;
+	/*border-radius: 20px;*/
+}
+#titleMain{
+	width: 90%;
+	height: 40px;
+	padding: 10px 0;
+	margin: 10px auto 0px;
+	background-color: brown;
+	opacity: 0.9;
+	-ms-filter: blur(1px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+	text-align: center;
+	font-size: 1.8em;
+	color: #fff;
+}
+#formInfo{
+	width: 266px;
+	margin: 20px auto;
+	border: 1px solid brown;
+	padding: 20px 118px 40px;
+}
+input[type="text"]{
+	width: 120px;
+	height: 30px;
+	padding: 4px;
+	border: 1px solid brown;
+	text-align: center;
+}
+button{
+	width: 90px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: brown;
+	border: 1px solid brown;
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: all .3s linear 0s;
+	   -moz-transition: all .3s linear 0s;
+	    -ms-transition: all .3s linear 0s;
+	     -o-transition: all .3s linear 0s;
+	        transition: all .3s linear 0s;
+	-ms-filter: blur(0px);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}
+button:hover{
+	-ms-filter: blur(1px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+#result{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	margin: 20px auto 0px;
+	border: 1px solid brown;
+	background-color: brown;
+	color: #fff;
+	text-align: center;
+}
+#outputValue{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	margin: 0px auto 20px;
+	border: 1px solid brown;
+	color: brown;
+	text-align: center;
+}
+#back{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	border: 1px solid brown;
+	background-color: brown;
+	-webkit-transition: all .3s linear 0s;
+	   -moz-transition: all .3s linear 0s;
+	    -ms-transition: all .3s linear 0s;
+	     -o-transition: all .3s linear 0s;
+	        transition: all .3s linear 0s;
+	-ms-filter: blur(0px);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	color: #fff;
+	opacity: 1;
+}
+#back:hover{
+	/*background-color: #fff;*/
+	opacity: 0.4;
+	-ms-filter: blur(1px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+#back a{
+	text-decoration: none;
+	color: #fff;
+	padding: 6px 19px;
+}
+#dataTrain{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	bottom: 20px;
+	background-color: brown;
+	text-align: center;
+	-webkit-transition: all .3s linear 0s;
+	   -moz-transition: all .3s linear 0s;
+	    -ms-transition: all .3s linear 0s;
+	     -o-transition: all .3s linear 0s;
+	        transition: all .3s linear 0s;
+	-ms-filter: blur(0px);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);	
+}
+#dataTrain a{
+	padding: 10px 42px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+#dataTrain:hover{
+	-ms-filter: blur(1px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+}
+#tableTrain{
+	margin: 20px auto;
+	border-collapse: collapse;
+	border-color: brown;
+}
+#tableTrain tr th{
+	padding: 10px;
+	background-color: brown;
+	color: #fff;
+}
+#tableTrain tr td{
+	padding: 5px;
+	color: brown;
+}
+.center{
+	text-align: center;
+}
+.epoch{
+	margin-left: 5px;
+}
+/********
+			footer
+					********/
+
+#footer{
+	/*margin-right: 10px;*/
+	width: 80%;
+	/*height: 90px;*/
+	margin: auto;
+	text-align: right;
+	padding: 10px;
+	background-color: brown;
+	/*border-radius: 20px;*/
+	color: #fff;
+	font-size: 0.7em;
+}
